@@ -36,6 +36,7 @@ namespace Client
             if (tokenResponse.IsError)
             {
                 Console.WriteLine(tokenResponse.Error);
+                
                 return;
             }
 
